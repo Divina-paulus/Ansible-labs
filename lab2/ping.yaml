@@ -1,0 +1,4 @@
+- name: Test Ping
+  hosts: nexus
+  tasks:
+  - action: ping
